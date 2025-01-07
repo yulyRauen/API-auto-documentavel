@@ -21,7 +21,7 @@ export async function routes(app: FastifyTypedInstance) {
       },
     },
     () => {
-      return [];
+      return users;
     }
   );
 
